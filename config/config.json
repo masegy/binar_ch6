@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin123",
+    "database": "binar_chapter6",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin123",
+    "database": "binar_chapter6_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "admin123",
+    "database": "binar_chapter6_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

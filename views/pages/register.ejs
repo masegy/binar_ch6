@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('../partials/header'); %></header>
+    <main>
+      <form method="POST" action="/user_game">
+        <!-- nama pertama input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="firstName">Nama Pertama</label>
+          <input type="text" id="firstName" class="form-control" name="firstName" />
+        </div>
+        <!-- nama akhir input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="lastName">Nama Akhir</label>
+          <input type="text" id="lastName" class="form-control" name="lastName"/>
+        </div>
+        <!-- email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="email">email</label>
+          <input type="email" id="email" class="form-control" name="email"/>
+        </div>
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="password">Password</label>
+          <input type="password" id="password" class="form-control" name="password"/>
+        </div>
+          <div class="col">
+            <!-- Simple link -->
+            <a href="/login">Sudah punya akun ?</a>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">
+          Register
+        </button>
+      </form>
+    </main>
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
+</html>
